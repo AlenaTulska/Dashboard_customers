@@ -1,0 +1,149 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet' href='./css/style.css')
+.mainblock
+  .aside
+    .aside__logo
+      a(href='#')
+        svg.aside__title-icon
+          use(href='#dashboardlogo')
+        h1
+          | Dashboard 
+          span(style='color:#838383; font-size: 10px;') v 0.1
+    ul.aside__list.list
+      li
+        .list__item
+          img(src='./img/dashboard.png')
+      li
+        .list__item
+          img(src='./img/product.png')
+      li
+        .list__item
+          img(src='./img/customers.png')
+      li
+        .list__item
+          img(src='./img/income.png')
+      li
+        .list__item
+          img(src='./img/promote.png')
+      li
+        .list__item
+          img(src='./img/help.png')
+.aside__img
+  div
+    img(src='./img/Evano.png')
+  div
+    p(style='font-size: 14px')
+      b
+      | Evano
+    p(style='font-size: 12px; color: #757575') Project manager
+.wrapper
+  .wrapper__heading
+    p Hello Evano!&#x1F44B;&#x1F3FC;
+  .wrapper__container.container
+    .container__head
+      div
+        p All customers
+        p Active members
+      .container__input
+        input(type='search' placeholder='Search')
+    table.container__table.table
+      thead
+        tr
+          th Customer name
+          th Company
+          th Phone number
+          th Email
+          th Country
+          th Status
+      tbody
+        tr
+          td Jane Cooper
+          td Microsoft
+          td (225) 555-0118
+          td jane@microsoft.com
+          td United States
+          td
+            button.table__button--inact.inact Inactive
+        tr
+          td Floyd Miles
+          td Yahoo
+          td (205) 555-0100
+          td floyd@yahoo.com
+          td Kiribati
+          td
+            button.table__button--inact.inact Inactive
+        tr
+          td Ronald Richards
+          td Adobe
+          td (302) 555-0107
+          td ronald@adobe.com
+          td Israel
+          td
+            button.table__button--act.act Active
+        tr
+          td Marvin McKinney
+          td Tesla
+          td (252) 555-0126
+          td marvin@tesla.com
+          td Iran
+          td
+            button.table__button--act.act Active
+        tr
+          td Jerome Bell
+          td Google
+          td (629) 555-0129
+          td jerome@google.com
+          td R&eacute;union
+          td
+            button.table__button--act.act Active
+        tr
+          td Kathryn Murphy
+          td Microsoft
+          td (406) 555-0120
+          td kathryn@microsoft.com
+          td Cura&ccedil;ao
+          td
+            button.table__button--act.act Active
+        tr
+          td Jacob Jones
+          td Yahoo
+          td (208) 555-0112
+          td jacob@yahoo.com
+          td Brazil
+          td
+            button.table__button--act.act Active
+        tr
+          td Kristin Watson
+          td Facebook
+          td (704) 555-0127
+          td kristin@facebook.com
+          td &angst;land Islands
+          td
+            button.table__button--inact.inact Inactive
+    .container__last-item
+      div Showing data 1 to 8 of  256K entries
+      .container__bottom-nav.nav
+        .nav__left
+          div
+        #active
+          a(href='#') 1
+        div
+          a(href='#') 2
+        div
+          a(href='#') 3
+        div
+          a(href='#') 4
+        div ...
+        div
+          a(href='#') 40
+        .nav__right
+          div
+svg(xmlns='http://www.w3.org/2000/svg')
+  symbol#dashboardlogo(viewbox='0 0 37 37')
+    path(d='M18.5004 34.8876C17.4674 34.8876 16.4191 34.6564 15.602 34.1784L7.1229 29.2914C3.66957 26.9634 3.45374 26.6089 3.45374 22.9551V14.0443C3.45374 10.3905 3.65415 10.0359 7.04582 7.73887L15.5866 2.80553C17.2054 1.86512 19.7491 1.86512 21.3679 2.80553L29.8779 7.70803C33.3312 10.0359 33.547 10.3905 33.547 14.0443V22.9397C33.547 26.5934 33.3466 26.948 29.9549 29.2451L21.4141 34.1784C20.5816 34.6564 19.5333 34.8876 18.5004 34.8876ZM18.5004 4.42428C17.8529 4.42428 17.2208 4.54762 16.7737 4.8097L8.29457 9.7122C5.78165 11.408 5.78165 11.408 5.78165 14.0443V22.9397C5.78165 25.5759 5.78165 25.5759 8.35624 27.318L16.7737 32.1743C17.6833 32.6984 19.3329 32.6984 20.2424 32.1743L28.7216 27.2718C31.2191 25.5759 31.2191 25.5759 31.2191 22.9397V14.0443C31.2191 11.408 31.2191 11.408 28.6445 9.66595L20.227 4.8097C19.7799 4.54762 19.1479 4.42428 18.5004 4.42428Z' fill='#1A1A1A')
+    path(d='M18.5 24.2812C15.3088 24.2812 12.7188 21.6912 12.7188 18.5C12.7188 15.3088 15.3088 12.7188 18.5 12.7188C21.6912 12.7188 24.2812 15.3088 24.2812 18.5C24.2812 21.6912 21.6912 24.2812 18.5 24.2812ZM18.5 15.0312C16.5883 15.0312 15.0312 16.5883 15.0312 18.5C15.0312 20.4117 16.5883 21.9688 18.5 21.9688C20.4117 21.9688 21.9688 20.4117 21.9688 18.5C21.9688 16.5883 20.4117 15.0312 18.5 15.0312Z' fill='#1A1A1A')
+script(src='js/script.js')

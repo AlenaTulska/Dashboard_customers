@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class = mainblock>
+     <div class="aside">
+        <div class="aside__logo">
+        <a href="#">
+        <svg class = "aside__title-icon">
+        <use href="#dashboardlogo"></use>
+        </svg>
+        <h1>Dashboard <span style="color:#838383; font-size: 10px;">v 0.1</span></h1>
+        </a>
+        </div>
+          
+        <ul class="aside__list list">
+            <li>
+                <div class="list__item">
+                    <img src = "./img/dashboard.png">                        
+                </div>
+            </li>
+            <li>
+                <div class="list__item">
+                    <img src = "./img/product.png">                        
+                </div>                                
+            </li>
+            <li>
+                <div class="list__item">
+                    <img src = "./img/customers.png">                        
+                </div>                    
+            </li>
+            <li>
+                <div class="list__item">
+                    <img src = "./img/income.png">                        
+                </div>                      
+            </li>
+            <li>
+                <div class="list__item">
+                    <img src = "./img/promote.png">                        
+                </div>                    
+            </li>
+            <li>
+                <div class="list__item">
+                    <img src = "./img/help.png">                        
+                </div>
+            </li>                    
+        </ul>
+        </div>
+        
+    </div>
+        <div class="aside__img">
+            <div><img src="./img/Evano.png"></div>
+            <div><p style="font-size: 14px"><b></b>Evano</b></p>
+            <p style="font-size: 12px; color: #757575">Project manager</p>
+            </div>
+        </div>
+    <div class="wrapper">
+    <div class="wrapper__heading">
+        <p class>Hello Evano!👋🏼</p>
+    </div>      
+      
+    <div class="wrapper__container container">        
+    <div class="container__head">
+    <div>
+        <p>All customers</p>
+        <p>Active members</p>
+    </div>
+    <div class="container__input">
+    <input type="search" placeholder="Search">
+    </div>
+    </div>
+    <table class="container__table table"> 
+        <thead>
+            <tr>
+                <th>Customer name</th>
+                <th>Company</th>
+                <th>Phone number</th>
+                <th>Email</th>
+                <th>Country</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane Cooper</td>
+                <td>Microsoft</td>
+                <td>(225) 555-0118</td>
+                <td>jane@microsoft.com</td>
+                <td>United States</td>
+                <td>
+                    <button class="table__button--inact inact">Inactive</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Floyd Miles</td>
+                <td>Yahoo</td>
+                <td>(205) 555-0100</td>
+                <td>floyd@yahoo.com</td>
+                <td>Kiribati</td>
+                <td>
+                    <button class="table__button--inact inact">Inactive</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ronald Richards</td>
+                <td>Adobe</td>
+                <td>(302) 555-0107</td>
+                <td>ronald@adobe.com</td>
+                <td>Israel</td>
+                <td>
+                    <button class="table__button--act act">Active</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Marvin McKinney</td>
+                <td>Tesla</td>
+                <td>(252) 555-0126</td>
+                <td>marvin@tesla.com</td>
+                <td>Iran</td>
+                <td>
+                    <button class="table__button--act act">Active</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Jerome Bell</td>
+                <td>Google</td>
+                <td>(629) 555-0129</td>
+                <td>jerome@google.com</td>
+                <td>Réunion</td>
+                <td>
+                    <button class="table__button--act act">Active</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Kathryn Murphy</td>
+                <td>Microsoft</td>
+                <td>(406) 555-0120</td>
+                <td>kathryn@microsoft.com</td>
+                <td>Curaçao</td>
+                <td>
+                     <button class="table__button--act act">Active</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Jacob Jones</td>
+                <td>Yahoo</td>
+                <td>(208) 555-0112</td>
+                <td>jacob@yahoo.com</td>
+                <td>Brazil</td>
+                <td>
+                    <button class="table__button--act act">Active</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Kristin Watson</td>
+                <td>Facebook</td>
+                <td>(704) 555-0127</td>
+                <td>kristin@facebook.com</td>
+                <td>Åland Islands</td>
+                <td>
+                    <button class="table__button--inact inact">Inactive</button>
+                </td>
+        </tbody>
+    </table>
+        <div class="container__last-item">
+            <div>Showing data 1 to 8 of  256K entries</div>
+                <div class="container__bottom-nav nav">
+                    <div class="nav__left"><div></div>                  
+                    </div>
+                    <div id="active"><a href="#">1</a></div>
+                    <div><a href="#">2</a></div>
+                    <div><a href="#">3</a></div>
+                    <div><a href="#">4</a></div>
+                    <div>...</div>
+                    <div><a href="#">40</a></div>
+                    <div class="nav__right"><div></div></div>
+                </div>
+            </div>             
+        </div>
+    </div>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 37 37" id="dashboardlogo">
+        <path d="M18.5004 34.8876C17.4674 34.8876 16.4191 34.6564 15.602 34.1784L7.1229 29.2914C3.66957 26.9634 3.45374 26.6089 3.45374 22.9551V14.0443C3.45374 10.3905 3.65415 10.0359 7.04582 7.73887L15.5866 2.80553C17.2054 1.86512 19.7491 1.86512 21.3679 2.80553L29.8779 7.70803C33.3312 10.0359 33.547 10.3905 33.547 14.0443V22.9397C33.547 26.5934 33.3466 26.948 29.9549 29.2451L21.4141 34.1784C20.5816 34.6564 19.5333 34.8876 18.5004 34.8876ZM18.5004 4.42428C17.8529 4.42428 17.2208 4.54762 16.7737 4.8097L8.29457 9.7122C5.78165 11.408 5.78165 11.408 5.78165 14.0443V22.9397C5.78165 25.5759 5.78165 25.5759 8.35624 27.318L16.7737 32.1743C17.6833 32.6984 19.3329 32.6984 20.2424 32.1743L28.7216 27.2718C31.2191 25.5759 31.2191 25.5759 31.2191 22.9397V14.0443C31.2191 11.408 31.2191 11.408 28.6445 9.66595L20.227 4.8097C19.7799 4.54762 19.1479 4.42428 18.5004 4.42428Z" fill="#1A1A1A"/>
+<path d="M18.5 24.2812C15.3088 24.2812 12.7188 21.6912 12.7188 18.5C12.7188 15.3088 15.3088 12.7188 18.5 12.7188C21.6912 12.7188 24.2812 15.3088 24.2812 18.5C24.2812 21.6912 21.6912 24.2812 18.5 24.2812ZM18.5 15.0312C16.5883 15.0312 15.0312 16.5883 15.0312 18.5C15.0312 20.4117 16.5883 21.9688 18.5 21.9688C20.4117 21.9688 21.9688 20.4117 21.9688 18.5C21.9688 16.5883 20.4117 15.0312 18.5 15.0312Z" fill="#1A1A1A"/>
+    </symbol>    
+
+</svg>
+<script src = "js/script.js"></script>
+</body>
+
+</html>
